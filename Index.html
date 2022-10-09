@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vienes?</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            width: 214vh;
+            background-color: goldenrod;
+            animation: darking 4s 4s forwards;
+        }
+        @keyframes darking{
+        100%{
+            background-color: black;
+        }    
+        }
+        p{
+            width: min(100% - 2em, 600px);
+            font-size: 2.5em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+        }
+        span{color: black;}
+    </style>
+</head>
+<body>
+    <main class="container">
+        <p>
+        Y que tal si <span>el</span> vie<span>r</span>nes<span> vamos</span>
+        y nos comemos <span>un helado?</span>
+    </p>
+    </main>
+</body>
+</html>
